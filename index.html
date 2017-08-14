@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- mac Ctl+B 可以選擇所有跟反白處一樣的字串e.g. code or colorcode, 再全部一起同步動作改寫或往後加 -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HoT.Y.Jessica</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-header">
+            <a href="" class="navbar-brand">T.Y. Jessica Ho</a>
+
+
+        </div>
+
+        <ul class="navbar-list">
+            <!--(li>a{Link$})*4 -->
+            <li><a href="">ABOUT ME</a></li>
+            <li><a href="">EDUCATION</a></li>
+            <li><a href="">EXPERIENCE</a></li>
+        </ul>
+    </nav>
+
+    <!--.row>.col-md-6*2 TAB-->
+    <section>
+
+        <div id="slide1" class="carousel slide" data-ride="carousel" data-interval="20000">
+            <!-- 輪播內容 -->
+            <div class="carousel-inner">
+                <!-- 每一頁是一個.item -->
+                <div class="item active">
+                    <h1>第一頁</h1>
+                    <image src="img/img06.jpg" ,width=100%></image>
+                </div>
+                <div class="item">
+                    <h1>第二頁</h1>
+                </div>
+                <div class="item">
+                    <h1>第三頁</h1>
+                </div>
+            </div>
+            <!-- 上一頁 下一頁 -->
+            <div class="control-btn">
+                <a href="#slide1" class="left carousel-control" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hiddden="true"></span>
+                </a>
+                <a href="#slide1" class="right carousel-control" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span>
+                </a>
+            </div>
+            <!-- 指定輪播到第幾頁的按鈕 -->
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slide1" data-slide-to="0"></li>
+                <li data-target="#slide1" data-slide-to="1"></li>
+                <li data-target="#slide1" data-slide-to="2"></li>
+            </ol>
+        </div>
+
+    </section>
+
+    <section id="introSection">
+        <div class="row">
+            <!--col start .row>.col-md-4 -->
+            <div class="col-md-4">
+                <h3>ABOUT ME</h3>
+                <div class="icon"><i class="fa fa-5x fa-address-card" aria-hidden="true"></i>
+                </div>
+                <p>WHO I AM</p>
+            </div>
+            <!-- col end -->
+            <!-- col start -->
+            <div class="col-md-4">
+                <h3>EDUCATION</h3>
+                <div class="icon"><i class="fa fa-5x fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <p>WHAT I'VE LEARNED</p>
+            </div>
+            <!-- col end -->
+            <!-- col start -->
+            <div class="col-md-4">
+                <h3>EXPERIENCE</h3>
+                <div class="icon"><i class="fa fa-5x fa-briefcase" aria-hidden="true"></i>
+
+                </div>
+                <p>WHERE I'VE BEEN</p>
+            </div>
+            <!-- col end -->
+
+        </div>
+
+
+    </section>
+
+
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

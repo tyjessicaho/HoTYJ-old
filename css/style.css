@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+/* primary: $primary => royalblue */
+
+
+/* general */
+
+
+/* primary: $primary */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span {
+    color: #DAA520;
+}
+
+
+/* navbar */
+
+body {
+    padding-top: 50px;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #F3C324;
+    opacity: 0.9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 200;
+}
+
+.navbar-header {
+    float: left;
+}
+
+.navbar-list {
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-brand,
+.navbar-list>li {
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 15px;
+}
+
+.navbar-brand,
+.navbar-list>li>a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+
+/* header */
+
+
+/* media query */
+
+
+/* screen > 600px */
+
+
+/* 至少要有601px */
+
+
+/* min-width: 601px */
+
+@media screen and (min-width: 601px) {
+    .header-title {
+        color: #F3C324;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-title {
+        color: #DAA520;
+    }
+}
+
+.carousel .item {
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.carousel.item>h1 {
+    color: white;
+    text-align: center;
+    z-index: 100;
+}
+
+.item:nth-child(1) {
+    background-image: url("../img/img06.jpg");
+    width: 100%;
+}
+
+.item:nth-child(2) {
+    background-image: url("../img/img02.jpg");
+}
+
+.item:nth-child(3) {
+    background-image: url("../img/img11.jpg");
+    z-index: -1;
+}
+
+.background-imge {
+    width: auto;
+}
+
+
+/* .search-bar {
+    width: 600px;
+    height: 50px;
+    background: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    padding: 0 20px;*/
+
+
+/* 預設值 */
+
+
+/*
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 200;
+    */
+
+
+/*
+    position: relative;
+    */
+
+
+/*
+position: absolute;
+    bottom: -25px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;*/
+
+
+/* absolute 水平垂直置中
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    */
+
+
+/*}*/
+
+
+/*.search-bar>input {
+    width: 100%;
+    height: 50px;
+    display: block;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar>input:focus {
+    outline: none;
+}
+*/
+
+
+/* introSection */
+
+#introSection {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.icon {
+    color: #F3C324;
+}
+
+
+/* footer */
+
+footer {
+    background: #F3C324;
+    padding: 80px 0;
+    text-align: center;
+}
+
+footer>h1 {
+    color: white;
+    position: float;
+}
